@@ -26,8 +26,8 @@ from __future__ import print_function
 
 
 import tensorflow.compat.v1 as tf
-import tf_slim as slim
-
+#import tf_slim as slim
+import tensorflow.contrib.slim as slim
 
 def block35(net, scale=1.0, activation_fn=tf.nn.relu, scope=None, reuse=None):
   """Builds the 35x35 resnet block."""

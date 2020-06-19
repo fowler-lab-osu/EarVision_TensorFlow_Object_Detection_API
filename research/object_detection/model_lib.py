@@ -23,8 +23,8 @@ import functools
 import os
 
 import tensorflow.compat.v1 as tf
-import tf_slim as slim
-
+#import tf_slim as slim
+import tensorflow.contrib.slim as slim
 
 from object_detection import eval_util
 from object_detection import exporter as exporter_lib

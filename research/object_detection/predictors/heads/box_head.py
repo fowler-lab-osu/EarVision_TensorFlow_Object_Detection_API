@@ -21,7 +21,8 @@ All the box prediction heads have a predict function that receives the
 """
 import functools
 import tensorflow.compat.v1 as tf
-import tf_slim as slim
+#import tf_slim as slim
+import tensorflow.contrib.slim as slim
 
 from object_detection.predictors.heads import head
 

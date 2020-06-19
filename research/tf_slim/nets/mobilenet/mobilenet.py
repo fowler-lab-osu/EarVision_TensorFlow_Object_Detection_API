@@ -23,8 +23,8 @@ import copy
 import os
 
 import tensorflow.compat.v1 as tf
-import tf_slim as slim
-
+#import tf_slim as slim
+import tensorflow.contrib.slim as slim
 
 @slim.add_arg_scope
 def apply_activation(x, name=None, activation_fn=None):

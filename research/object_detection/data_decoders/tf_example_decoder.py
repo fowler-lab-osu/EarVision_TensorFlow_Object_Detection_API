@@ -25,7 +25,7 @@ import enum
 import numpy as np
 from six.moves import zip
 import tensorflow.compat.v1 as tf
-from tf_slim import tfexample_decoder as slim_example_decoder
+from tensorflow.contrib.slim import tfexample_decoder as slim_example_decoder
 from object_detection.core import data_decoder
 from object_detection.core import standard_fields as fields
 from object_detection.protos import input_reader_pb2

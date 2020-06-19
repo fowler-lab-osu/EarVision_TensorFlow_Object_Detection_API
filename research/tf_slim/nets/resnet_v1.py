@@ -57,7 +57,8 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow.compat.v1 as tf
-import tf_slim as slim
+#import tf_slim as slim
+import tensorflow.contrib.slim as slim
 
 from nets import resnet_utils
 
