@@ -1,3 +1,7 @@
+# TF Model Garden Modified for Seed Project
+
+This repo contains only the object detection and TF Slim portions of the TF Model Garden as this is all that's curently used for this project. This was done to reduce complexity and save space when running the training/inference pipeline for this project.
+
 ![Logo](https://storage.googleapis.com/model_garden_artifacts/TF_Model_Garden.png)
 
 # Welcome to the Model Garden for TensorFlow
